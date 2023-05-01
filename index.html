@@ -20,7 +20,22 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
-        
+        .t1{
+            height: 300px;
+            border-top: 20px  solid goldenrod;
+            margin-bottom: 25px;
+            color: white;
+        }
+        .ico>span:hover{
+            color: blue;
+        }
+        footer{
+            display: grid;
+            grid-template-columns: 4fr 2fr 2fr 4fr;
+        }
+        .und >p:hover{
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -39,6 +54,63 @@
                 </div>
             </div>
         </div>
+   </div>
+   <aside style=" justify-content: right; margin-top: -100px; margin-right: 20px; color: blue; position: fixed;  right: 0%; bottom: 5px;"  >
+    <div class="bi bi-facebook"></div>
+    <div class="bi bi-instagram"></div>
+    <div class="bi bi-medium"></div>
+    <div class="bi bi-linkedin"></div>
+   </aside>
+   <div style="height: 1200px; background-color: rgb(104, 96, 96);">
+       <div class="t1" >
+           <h1 style="text-align: center;margin-bottom: 30px; margin-top: 30px; margin-left: -120px; font-size: 40px; font-weight: bold;"><p> Find the perfect rental</p></h1>
+           <p style="text-align: center;margin-left: 30px; width: 600px; font-size: 25px;">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed in</p>
+           <img src="public/images/vac.jpg" style="float: right; margin-top: -170px; margin-right: 50px;">
+       </div>
+       <div class="t1">
+           <h1 style="text-align: center;margin-bottom: 30px; margin-top: 30px; margin-left: -120px; font-size: 40px; font-weight: bold;"><p> Book with confidence</p></h1>
+           <p style="text-align: center;margin-left: 30px; width: 600px; font-size: 25px;">The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pit</p>
+           <img src="public/images/bet.jpg" style="float: right; margin-top: -140px; margin-right: 50px;">        
+       </div>
+       <div class="t1" style="border-bottom:20px solid goldenrod ; ">
+            <h1 style="text-align: center;margin-bottom: 30px; margin-top: 30px; margin-left: -120px; font-size: 40px; font-weight: bold;"><p> Enjoy your vacation</p></h1>
+            <p style="text-align: center;margin-left: 30px; width: 600px; font-size: 25px;">His room, a proper human room although a little too small, lay peacefully between its four familiar</p>
+            <img src="public/images/paris.jpg" style="float: right; margin-top: -170px; margin-right: 50px; height: 200px; width: 200px;">            
+       </div>
+       <footer>
+           <div>
+               <div><p><b> DIRECTORY</b></p></div>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+               <div class="ico">
+                   <span class="bi bi-facebook"></span>
+                   <span class="bi bi-instagram"></span>
+                   <span class="bi bi-medium"></span>
+                   <span class="bi bi-linkedin"></span>
+               </div>
+           </div>
+           <div class="und">
+               <div><p><b>RENTALS</b></p></div>
+               <p>ROOMS</p>
+               <p>MOVE ON TOP</p>
+               <p>SIDE MAP</p>
+               <p>NO MAP</p>
+               <p>ROOM DETAIL</p>
+           </div>
+           <div class="und">
+               <div><p><b>PAGES</b></p></div>
+               <p>Comparision</p>
+               <p>Team</p>
+               <p>Contact</p>
+           </div>
+           <div>
+               <div><p><b>DAILY OFFERS & DISCOUNTS</b></p></div>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.</p>
+               <p class="input-group">
+                   <input type="email" placeholder="enter email" class="form-control">
+                   <button class="bi bi-telegram"></button>
+               </p>
+           </div>
+       </footer>
    </div>
 </body>
 </html>
